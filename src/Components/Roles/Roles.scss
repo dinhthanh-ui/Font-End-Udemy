@@ -1,0 +1,32 @@
+.role-container {
+	.actions {
+		i {
+			padding-top: 7px;
+			padding-right: 7px;
+			font-size: 22px;
+			cursor: pointer;
+		}
+		.create {
+			color: green;
+		}
+		.delete {
+			color: red;
+		}
+	}
+	.manage-role {
+		color: #9053c7;
+		color: -webkit-linear-gradient(-135deg, #c850c0, #4158d0);
+		color: -o-linear-gradient(-135deg, #c850c0, #4158d0);
+		color: -moz-linear-gradient(-135deg, #c850c0, #4158d0);
+		color: linear-gradient(-135deg, #c850c0, #4158d0);
+		background: rgb(197, 196, 196);
+	}
+
+	.manage-role-container {
+		.account {
+			i {
+				padding-right: 7px;
+			}
+		}
+	}
+}
