@@ -6,13 +6,17 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import { UserProvider } from './Context/UserContext'
+import { Provider } from 'react-redux'
+import store from './Redux/Store'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <UserProvider>
-      <App />
-    </UserProvider>
-  </React.StrictMode>,
+  <Provider store={store}>
+    <React.StrictMode>
+      <UserProvider>
+        <App />
+      </UserProvider>
+    </React.StrictMode>
+  </Provider>,
   document.getElementById('root')
 )
 

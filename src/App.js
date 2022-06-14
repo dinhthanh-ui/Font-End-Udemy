@@ -8,7 +8,6 @@ import { Watch } from 'react-loader-spinner'
 import { UserContext } from './Context/UserContext'
 import './App.scss';
 import { Scrollbars } from 'react-custom-scrollbars-2';
-
 function App ()
 {
   const { user } = React.useContext(UserContext)
